@@ -1,0 +1,1 @@
+/ip firewall mangle add action=change-ttl new-ttl=set:1 chain=postrouting disabled=no passthrough=no dst-address="10.0.0.1/16"

@@ -1,0 +1,270 @@
+body {
+	padding: 10px;
+	background-color: #181818
+}
+
+img {
+	filter: drop-shadow(10px 10px 10px rgb(0,0,0,0.6));
+}
+
+.container {
+	background-color: #202020;
+	padding: 20px;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 5px
+}
+
+.banner {
+	margin-bottom: 20px
+}
+
+.blinking1{
+    animation:blinkingText1 1.2s infinite;
+}
+@keyframes blinkingText1{
+    0%{     color: red;    }
+    49%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red;    }
+}
+
+.blinking2{
+    animation:blinkingText2 1.2s infinite;
+}
+@keyframes blinkingText2{
+    0%{     color: #4cd137;    }
+    49%{    color: #4cd137; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #4cd137;    }
+}
+
+.status{
+	color: #ababab;
+}
+
+.inscoin {
+	width: 100%;
+	border-radius: 3px;
+	padding: 10px
+}
+
+.inscoinholder {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+    text-shadow: 0px 1px 2px #000;
+}
+
+.status-holder {
+	display: block;
+	padding: 10px 5px 30px 5px;
+	font-size: 13px;	
+	width: 100%;
+	color: #fff;
+	box-shadow: 0px 1px 5px #000
+}
+
+.holder {
+	height: 50px;
+	width: 100%;
+	border: 2px solid: #eee;
+	padding: 10px;
+	display: block
+}
+
+.modal-body {
+	height: auto !important;
+	width: 100%
+}
+
+.modal-content {
+	background-color: #202020;
+	color: #fff
+}
+
+.table{
+	color: #fff;
+	border: none
+}
+
+#overlay {
+    position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	cursor: pointer;
+
+}
+
+#overlay-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 15px;
+	color: white;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+.ads {
+	width: 350px;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px #000;
+}
+
+.col-sm-6 {
+	margin-bottom: 15px
+}
+
+.footer {
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 13px
+}
+
+.footers a {
+	text-decoration: none;
+	color: #f1c40f
+}
+
+.footers a:hover {
+	color: #3498db
+}
+
+.memdiv {
+	width: 90%;
+	padding: 10px;
+	margin: auto;
+	border: 2px solid #576574;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 5px #000
+}
+
+.memdiv input {
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	border: 2px solid #576574;
+	background-color: #1e272e;
+	color: #fff
+}
+
+.form-group {
+	display: table;
+    border-radius: 5px;
+}
+
+.sdw {
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, .3) 0 1px 2px 0, rgba(0, 0, 0, .15) 0 2px 6px 2px;
+}
+
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+
+.input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.input-group-btn:last-child>.btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.modal-footer, .modal-body, .table {
+	border: none
+}
+
+.modal-footer {
+	border-block-start: 1px #d8d8d8 solid;border-color: rgba(60, 64, 67, .8);
+	
+}
+
+.modal-header {
+	border-block-end: 1px #d8d8d8 solid;border-color: rgba(60, 64, 67, .8);
+}
+
+#ratesBody{	
+	border: none;
+	color:#fff
+}
+
+.rholder {
+	width: 75%;
+	padding: 10px;
+	border-width: 3px;
+	border-style: dashed;
+	border-color: #576574;
+	margin-bottom: 25px;
+	border-radius: 0 15px 15px 0;
+	background: linear-gradient(90deg, #576574 8%, #191e2d 8%);
+	box-shadow: 1px 2px 3px #000
+}
+
+.rdata {
+	text-align: left;
+	text-shadow: 0px 1px 2px #000;
+	color: #dcdde1;
+	padding-left: 20px;
+	font-weight: bold
+}
+
+@media screen and (max-width: 600px) {
+.footer {
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 11px
+}
+
+}
+
+.input-bottom-space-20px {
+	margin-bottom: 20px;
+}
+
+.number {
+	font-weight: bold;
+}
+.timeCredit {
+	display:inline-block;
+	width:100%;
+	text-transform:uppercase;
+	margin: 2px;
+	font-size: 30px;
+	border-radius: 2px;
+}
+.timeCredit-label {
+	font-size:8px;
+}
+.timeCredit-div {
+	background-color: #323232;
+	border-radius:5px 5px 0px 0px;
+	text-shadow: 0px 1px 2px #000;
+}
+
+.timeCredit-label,.timeCredit {
+	color:#fff;
+}
